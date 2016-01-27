@@ -1,0 +1,6 @@
+IL FILE after_download chiama il file email_sent in modo da inviare la mail,
+il file after_download va inserito nelle settings.JSON
+"script-torrent-done-enabled": true, 
+"script-torrent-done-filename": "il_peth_del_file_da_eseguire", 
+
+il file settings.json si trova /etc/transmission/

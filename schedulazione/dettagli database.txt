@@ -1,0 +1,5 @@
+CREATE TABLE save_external_ip (id INTEGER PRIMARY KEY AUTOINCREMENT, local_ip CHAR(128),  external_ip char(128),  bit_rate char(256),  byte_up_down char(256),  packet_up_down char(256), time_started DATETIME )
+CREATE TABLE internal_data (id INTEGER PRIMARY KEY AUTOINCREMENT, external_ip char(128), packet_up_down CHAR(256), byte_up_down CHAR(256), FOREIGN KEY (external_ip) REFERENCES save_external_ip(external_ip))
+
+SELECT * FROM sqlite_master WHERE type = "table"; 
+ 

@@ -1,2 +1,2 @@
-# raspberry
-python
+# rasapberry
+le configurazioni del raspberry quanto si installa

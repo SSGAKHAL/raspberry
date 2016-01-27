@@ -1,0 +1,12 @@
+LO DEVO INSERIRE NEL FILE CRONTAB
+che si fa con super user crotab -e: e mi aprre un file in cui posso inserire le configurazioni come super utente
+i commandi shell al interno sono eseguiti come sudo
+
+# nelle giornate da lunedi fino a sabato nelle ore dispari dalle 9 fino alle 18
+  0 9,11,13,15,17,18 * * 1-6 /usr/bin/python /home/neptune_pi/schdulatore/email_sent.py
+# solo di domenica nelle ore 14 16 18
+  0 14,16,18 * * 7 /usr/bin/python /home/neptune_pi/schdulatore/email_sent.py
+
+il giorno 27 gennaio 2016 
+ho inserito il database per verificare sè indirizzio ip e cambiato o meno
+inserito anchè il database
